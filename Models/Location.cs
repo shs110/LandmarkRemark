@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace test2.Models
 {
+    //model to construct User location info
     public class Location
     {
         public double lattitude { get; set; }

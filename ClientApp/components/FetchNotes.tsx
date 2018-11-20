@@ -4,6 +4,7 @@ import 'isomorphic-fetch';
 import SearchInput, { createFilter } from 'react-search-input';
 
 
+//This component adds notes and a search form to search for notes
 const KEYS_TO_FILTERS = ['userName', 'note']
 export class UserNoteState {
     usernotes: UserNote[];

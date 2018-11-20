@@ -19,6 +19,7 @@ namespace test2.Controllers
         [HttpGet("[action]")]
         public Location GetLocation()
         {
+            //Fetch user location based on IP address
             Location location = new Location();
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://ip-api.com/json");
