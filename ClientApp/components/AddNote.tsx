@@ -23,7 +23,7 @@ export class AddNote extends React.Component<RouteComponentProps<{}>, AddNoteSta
     private static handleSave(event) {
         event.preventDefault();
         const data = new FormData(event.target); 
-        // POST request for Add employee.  
+        // POST request for Adding Note. Calling AddNote function in UserNote controller  
         
         fetch('api/UserNote/AddNote', {
             method: 'POST',
