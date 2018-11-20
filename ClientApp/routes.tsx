@@ -10,8 +10,6 @@ import { AddNote } from './components/AddNote';
 
 export const routes = <Layout>
     <Route exact path='/' component={FetchLocation } />
-    <Route path='/counter' component={ Counter } />
-    <Route path='/fetchdata' component={FetchData} />
     <Route path='/location' component={FetchLocation} />
     <Route path='/fetchnotes' component={FetchNotes} />
     <Route path='/' component={AddNote} />
