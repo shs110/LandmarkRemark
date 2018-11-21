@@ -1,7 +1,7 @@
 
 # Introduction 
 
-This app displays User Location based on IP address and allows the user to add a note to the database for his/her current location .
+This app displays a rough estimate of User Location based on IP address and allows the user to add a note to the database for his/her current location.
 
 
 ## Implicit requirements/Assumptions
