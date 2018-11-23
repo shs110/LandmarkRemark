@@ -1,7 +1,7 @@
 
 # Introduction 
 
-This app displays a rough estimate of User Location based on IP address and allows the user to add a note to the database for his/her current location.
+This app displays a rough estimate of User Location based on IP address and allows the user to add a note to the database for his/her current location. I tried to follow the MVC model as best as I could here, putting all my 
 
 
 ## Implicit requirements/Assumptions
@@ -15,6 +15,8 @@ This app displays a rough estimate of User Location based on IP address and allo
 ## Additional Notes to run solution
 
 The User.mdf database file is available in the repo. Add it to your server to get the connection string. Next replace the connection string in the databaseModels/mdbcontext.cs file in the data source of the **OnConfiguring** function
+
+Also after adding a note, the page has to be reloaded to see the data appear. This is something that can be improved.
 
 ## Limitations/proposed improvements
 
